@@ -1,4 +1,4 @@
-cacheefo
+Cacheefo
 ========
 
-Cache a Formated ActiveModel
+Cache a Formated ActivRecord
