@@ -23,7 +23,6 @@ describe "TestModel" do
 
     it "#as_json should cache" do
       json = @testModel.as_json
-
       json.should == Rails.cache.read( @testModel.cache_key(:json) )
     end
   end

@@ -1,3 +1,5 @@
+require "cacheefo/version"
+
 module Cacheefo
   extend self
 
@@ -34,7 +36,7 @@ module Cacheefo
   end
 
   def as_json_with_cache(options = {})
-    ::Rails.cache.fetch( cache_key("json") ) do
+    ::Rails.cache.fetch( cache_key("json") ) do 
       as_json_without_cache(options)
     end
   end
