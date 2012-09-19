@@ -1,5 +1,7 @@
 ## Cacheefo
 
+[![Build Status](https://secure.travis-ci.org/defsan/cacheefo.png)](http://travis-ci.org/defsan/cacheefo)
+
 Lazy caches serilization of ActiveRecord such as to_xml and as_json. Practically used in API calls where it can be used like:
 >
 > respond_with( Article.first )
