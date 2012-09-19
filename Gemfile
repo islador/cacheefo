@@ -9,4 +9,5 @@ group :test do
   gem 'activemodel'
   gem 'sqlite3'
   gem 'rspec'
+  gem 'fuubar'
 end
