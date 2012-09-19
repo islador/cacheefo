@@ -2,8 +2,8 @@
 $:.push File.expand_path("../lib", __FILE__)
 require 'cacheefo/version'
 
-Gem::Specification.new do |s|
-  gem.name          = "cacheefo"
+Gem::Specification.new do |gem|
+  gem.name          = "Cacheefo"
   gem.version       = Cacheefo::VERSION
 
   gem.authors       = ["Ihor Ratsyborynskyy"]
@@ -17,4 +17,3 @@ Gem::Specification.new do |s|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 end
-
