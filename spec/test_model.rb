@@ -1,5 +1,5 @@
 require 'cacheefo'
-require 'Cacheefo/railtie'
+require 'cacheefo/railtie'
 
 # Ingesting Cacheefo into ActiveRecord::Base
 Cacheefo::Railtie.insert
